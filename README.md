@@ -1,4 +1,4 @@
-## Getting Started
+## Stage one complete
 
 This is an overhaul of an already finished project that I currently host and built for lakeshore.
 
@@ -8,28 +8,23 @@ https://github.com/Catrat6/calc
 
 ### Whats Next
 
-So there are quite a few changes here, for one I am choosing python this time around. I just have a lot more fun with it. 
-This version will also be a lot more complex and I am proficient in python, not so much with JS. 
+So the program has been completely re-written in python, It now calculates mileage and automatically decided if 
+there are unloaded miles and then calculates them. I use the Google Maps API to calculate this and have a pretty clean
+and sharp looking CLI program completed. 
 
-Initial Changes:
- - Automation to get Mileage 
- - Automation of most of the calculation
+What it does:
+ - Finds the mileage from pickup to drop off 
+ - Figures out if unloaded miles are needed and if they are it calculates them
+ - Figures out the other required charges
+ - Adds everything together and gives the total cost
 
-Because this is a big project I will probably split it up, first I re-wrote a simple CLI version of the calculator
-to get started so I could get a feel for the algo in python, not that it is exactly complex math or anything but I have 
-not built a program from scratch in a few months so I am a little rusty. 
+Issues to fix:
+ - Just realize I need the option to calculate for a round trip, very simple addition just need to add it
+ - will add more as i find them
 
-Now that I have dont that I will next work on using google API to write automation for fetching the mileage. 
+Building Next:
+ - is the trip worth it for us to take?
+ - What will the trip cost us? 
 
-The first version of this will simply be CLI. It will function by the user answering a sting of queries and
-then solving the problem. 
-
-Once that works I will then work on cleaning up the code and using an undetermined package to turn it into a 
-desktop program with a GUI, probably TKinter
-
-Final Changes:
- - Add checks to calculate the value of the trip 
-
-After the base program works I will move in to solve the final problem which will be a second algorithm that will 
-calculate how "worth it" it is for us to take the trip. This will simply run automatically with each calculation
-and print out in the read out. 
+Now comes the big part ... we need to come up with an algo that can calculate if it is worth it or not for us to take
+the trip and deliver that along with the cost. 

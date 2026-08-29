@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e25f476-400a-4703-9e39-02b5bd3c90bb" name="Changes" comment="Cleaned up code, made the trip cost engine a class">
+    <list default="true" id="5e25f476-400a-4703-9e39-02b5bd3c90bb" name="Changes" comment="basic mileage calculation and unloaded calculation added in using maps API">
+      <change afterPath="$PROJECT_DIR$/mile_calculation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,15 +46,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "Python.mile_calculation.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -93,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788025763937</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="basic mileage calculation and unloaded calculation added in using maps API">
+      <option name="closed" value="true" />
+      <created>1788036151643</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1788036151643</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +122,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="second read me added" />
     <MESSAGE value="Cleaned up code, made the trip cost engine a class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up code, made the trip cost engine a class" />
+    <MESSAGE value="basic mileage calculation and unloaded calculation added in using maps API" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic mileage calculation and unloaded calculation added in using maps API" />
   </component>
 </project>
