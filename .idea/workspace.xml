@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e25f476-400a-4703-9e39-02b5bd3c90bb" name="Changes" comment="basic mileage calculation and unloaded calculation added in using maps API">
-      <change afterPath="$PROJECT_DIR$/mile_calculation.py" afterDir="false" />
+    <list default="true" id="5e25f476-400a-4703-9e39-02b5bd3c90bb" name="Changes" comment="mile calculation added in as its own class, updates to run main script smooth, read me update">
+      <change afterPath="$PROJECT_DIR$/operations_cost.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mile_calculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/mile_calculation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip_cost.py" beforeDir="false" afterPath="$PROJECT_DIR$/trip_cost.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788036151643</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mile calculation added in as its own class, updates to run main script smooth, read me update">
+      <option name="closed" value="true" />
+      <created>1788039579502</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1788039579502</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +132,7 @@
     <MESSAGE value="second read me added" />
     <MESSAGE value="Cleaned up code, made the trip cost engine a class" />
     <MESSAGE value="basic mileage calculation and unloaded calculation added in using maps API" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic mileage calculation and unloaded calculation added in using maps API" />
+    <MESSAGE value="mile calculation added in as its own class, updates to run main script smooth, read me update" />
+    <option name="LAST_COMMIT_MESSAGE" value="mile calculation added in as its own class, updates to run main script smooth, read me update" />
   </component>
 </project>

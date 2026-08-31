@@ -17,17 +17,19 @@ while True:
 
     b = input('How many legs does the trip have?\n')
 
-    c = mile_calculator.get_trip_miles(pick_up_address, drop_off_address)
+    c = input('Will this be round trip?\n')
 
-    d = mile_calculator.calculate_unloaded(pick_up_address)
+    d = mile_calculator.get_trip_miles(pick_up_address, drop_off_address)
 
-    e = input('how much wait time? (30 min intervals only)\n')
+    e = mile_calculator.calculate_unloaded(pick_up_address)
 
-    f = input('add any other random dollar amount (if none enter 0):\n')
+    f = input('how much wait time? (30 min intervals only)\n')
+
+    g = input('add any other random dollar amount (if none enter 0):\n')
 
     calculate_cost = TripCost()
 
-    cost = calculate_cost.calculate_trip_cost(a, b, c, d, e, f)
+    cost = calculate_cost.calculate_trip_cost(a, b, c, d, e, f, g)
 
     print(cost)
 

@@ -50,3 +50,4 @@ class MilesCalculation:
             return 0
         else:
             return unloaded_pick_up
+
