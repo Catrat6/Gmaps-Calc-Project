@@ -11,13 +11,13 @@ class MilesCalculation:
         self.api_key = os.getenv('GOOGLE_MAPS_API_KEY')
 
 
-    def get_trip_miles(self, pick_up, drop_off):
+    def get_trip_info(self, pick_up, drop_off):
         url = "https://routes.googleapis.com/directions/v2:computeRoutes"
 
         headers = {
             "Content-Type": "application/json",
             "X-Goog-Api-Key": self.api_key,
-            "X-Goog-FieldMask": "routes.distanceMeters"
+            "X-Goog-FieldMask": "routes.distanceMeters,routes.duration"
         }
 
         body = {
@@ -38,9 +38,22 @@ class MilesCalculation:
 
         data = response.json()
 
-        rounded_miles = round(data['routes'][0]['distanceMeters'] / 1609.344)
+        return data
 
-        return rounded_miles
+    def get_trip_miles(self, pick_up, drop_off):
+
+        trip_info = self.get_trip_info(pick_up, drop_off)
+
+        return round(trip_info['routes'][0]['distanceMeters'] / 1609.344)
+
+    def get_trip_time(self, pick_up, drop_off):
+
+        trip_info = self.get_trip_info(pick_up, drop_off)
+
+        time_seconds = trip_info['routes'][0]['duration'].replace('s', '')
+
+        return round(int(time_seconds) / 60)
+
 
     def calculate_unloaded(self, pickup):
 
@@ -50,4 +63,5 @@ class MilesCalculation:
             return 0
         else:
             return unloaded_pick_up
+
 

@@ -27,11 +27,14 @@ while True:
 
     g = input('add any other random dollar amount (if none enter 0):\n')
 
+    time = mile_calculator.get_trip_time(pick_up_address, drop_off_address)
+
     calculate_cost = TripCost()
 
     cost = calculate_cost.calculate_trip_cost(a, b, c, d, e, f, g)
 
     print(cost)
+    print(time)
 
     repeat = input('Would you like to calculate another trips cost?\n')
 

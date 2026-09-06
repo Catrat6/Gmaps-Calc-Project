@@ -1,4 +1,12 @@
 from lists import yes_words, no_words
+from mile_calculation import MilesCalculation
+
+# OPERATING COSTS
+# MPG = 18
+# DRIVER_COST = 20.00
+# GAS_PRICE = 3.75
+# LOAD_TIME = 10
+
 
 class TripCost:
     def __init__(self):
@@ -30,3 +38,13 @@ class TripCost:
         trip_cost = base + fee
 
         return trip_cost
+
+
+
+
+
+
+
+
+
+
