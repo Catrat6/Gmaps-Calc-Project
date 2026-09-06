@@ -33,8 +33,7 @@ while True:
 
     cost = calculate_cost.calculate_trip_cost(a, b, c, d, e, f, g)
 
-    print(cost)
-    print(time)
+    print(f'Your trip will take {time} minutes and cost ${cost}')
 
     repeat = input('Would you like to calculate another trips cost?\n')
 

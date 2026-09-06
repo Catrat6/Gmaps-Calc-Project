@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e25f476-400a-4703-9e39-02b5bd3c90bb" name="Changes" comment="sync">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operations_cost.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trip_cost.py" beforeDir="false" afterPath="$PROJECT_DIR$/trip_cost.py" afterDir="false" />
-    </list>
+    <list default="true" id="5e25f476-400a-4703-9e39-02b5bd3c90bb" name="Changes" comment="API call for time added, changes in how calculation runs and object layout and design" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788707445013</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="API call for time added, changes in how calculation runs and object layout and design">
+      <option name="closed" value="true" />
+      <created>1788712452505</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1788712452505</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +153,7 @@
     <MESSAGE value="mile calculation added in as its own class, updates to run main script smooth, read me update" />
     <MESSAGE value="Added in a round trip option" />
     <MESSAGE value="sync" />
-    <option name="LAST_COMMIT_MESSAGE" value="sync" />
+    <MESSAGE value="API call for time added, changes in how calculation runs and object layout and design" />
+    <option name="LAST_COMMIT_MESSAGE" value="API call for time added, changes in how calculation runs and object layout and design" />
   </component>
 </project>
