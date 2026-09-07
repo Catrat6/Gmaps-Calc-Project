@@ -43,14 +43,14 @@ Issues to fix:
  - ~~Just realize I need the option to calculate for a round trip, very simple addition just need to add it~~
  - ....
 
-**Building Next:
+Building Next:
  - is the trip worth it for us to take? 
- - ~~What will the trip cost us?~~** done
+ - ~~What will the trip cost us?~~ 
 
 In the process of building this now, the new class exists in trip_cost.py and inherits the OG trip cost class
 Almost done writing out the initial class and functions. Will dive into it more once I reach that point 
 
-#### Operating Cost Update 9/7/26
+### Ver 2.0 Operating Cost Update 9/7/26
 
 Calculation of the operating cost is complete in its most basic form.
 
@@ -62,3 +62,7 @@ Next I will work on fine tuning the calculation and trim down my code. I def nee
 so that I use less API calls, surely I can rewrite it better and use only one call and just store all the information
 in attributes or something. 
 
+Whats Next?:
+- Refine operating cost calculation, dial it in and make it more specific 
+- sand down the code, remove any repeating portions and work on limiting API calls 
+  - Rework class and functions to maybe use just a single API call 
