@@ -1,7 +1,7 @@
 import os
 import requests
 from lists import yes_words, no_words
-from trip_cost import TripCost
+from trip_cost import TripCost, OperatingCost
 from mile_calculation import MilesCalculation
 
 
@@ -33,7 +33,12 @@ while True:
 
     cost = calculate_cost.calculate_trip_cost(a, b, c, d, e, f, g)
 
-    print(f'Your trip will take {time} minutes and cost ${cost}')
+    operating_cost_calc = OperatingCost()
+
+    operating_cost = operating_cost_calc.find_operating_costs(pick_up_address, drop_off_address)
+
+    print(f'Your trip will take {time} minutes and cost the customer ${cost}')
+    print(f'The trip will cost the company ${operating_cost}')
 
     repeat = input('Would you like to calculate another trips cost?\n')
 

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e25f476-400a-4703-9e39-02b5bd3c90bb" name="Changes" comment="small return change">
+    <list default="true" id="5e25f476-400a-4703-9e39-02b5bd3c90bb" name="Changes" comment="README update and partial save on operating cost">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trip_cost.py" beforeDir="false" afterPath="$PROJECT_DIR$/trip_cost.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788712583751</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="README update and partial save on operating cost">
+      <option name="closed" value="true" />
+      <created>1788786925892</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1788786925892</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +175,7 @@
     <MESSAGE value="sync" />
     <MESSAGE value="API call for time added, changes in how calculation runs and object layout and design" />
     <MESSAGE value="small return change" />
-    <option name="LAST_COMMIT_MESSAGE" value="small return change" />
+    <MESSAGE value="README update and partial save on operating cost" />
+    <option name="LAST_COMMIT_MESSAGE" value="README update and partial save on operating cost" />
   </component>
 </project>

@@ -6,7 +6,7 @@ Here is a link to the OG repo:
 
 https://github.com/Catrat6/calc
 
-## Version 1.5    (update 9/7/2026)
+## Version 1.5    (update 9/7/26)
 
 Updates made to how the calculation runs, object layout, and a new API call for time. 
 
@@ -49,3 +49,10 @@ Issues to fix:
 
 In the process of building this now, the new class exists in trip_cost.py and inherits the OG trip cost class
 Almost done writing out the initial class and functions. Will dive into it more once I reach that point 
+
+#### Operating Cost Update 9/7/26
+
+Operating cost function and class are implamented and work. It is calculating correctly according to the 
+given instructions but I now need to dial in the actual cost of a trip for us better because the cost is coming
+out seemingly very very low. It makes sense with the data I have given it but i just need to add in the unloaded
+time, wear n tear and such ... because even if we do not use unloaded miles in a trip we do use the time and vehicle
