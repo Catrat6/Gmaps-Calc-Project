@@ -44,15 +44,21 @@ Issues to fix:
  - ....
 
 **Building Next:
- - is the trip worth it for us to take?
- - What will the trip cost us?** 
+ - is the trip worth it for us to take? 
+ - ~~What will the trip cost us?~~** done
 
 In the process of building this now, the new class exists in trip_cost.py and inherits the OG trip cost class
 Almost done writing out the initial class and functions. Will dive into it more once I reach that point 
 
 #### Operating Cost Update 9/7/26
 
-Operating cost function and class are implamented and work. It is calculating correctly according to the 
-given instructions but I now need to dial in the actual cost of a trip for us better because the cost is coming
-out seemingly very very low. It makes sense with the data I have given it but i just need to add in the unloaded
-time, wear n tear and such ... because even if we do not use unloaded miles in a trip we do use the time and vehicle
+Calculation of the operating cost is complete in its most basic form.
+
+It can def. be fine tuned and does not take in to consideration things like office costs, and other office
+related overhead. Although, if you want to exclude those things then I suppose this is a pretty fair
+estimate. 
+
+Next I will work on fine tuning the calculation and trim down my code. I def need to rework some of the classes
+so that I use less API calls, surely I can rewrite it better and use only one call and just store all the information
+in attributes or something. 
+

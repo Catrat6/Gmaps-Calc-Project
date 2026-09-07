@@ -21,7 +21,7 @@ while True:
 
     d = mile_calculator.get_trip_miles(pick_up_address, drop_off_address)
 
-    e = mile_calculator.calculate_unloaded(pick_up_address)
+    e = mile_calculator.calculate_unloaded(pick_up_address, drop_off_address)
 
     f = input('how much wait time? (30 min intervals only)\n')
 

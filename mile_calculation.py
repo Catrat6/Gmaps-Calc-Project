@@ -55,13 +55,35 @@ class MilesCalculation:
         return round(int(time_seconds) / 60)
 
 
-    def calculate_unloaded(self, pickup):
+    def calculate_unloaded(self, pick_up, drop_off):
 
-        unloaded_pick_up = self.get_trip_miles(self.office_address, pickup)
+        unloaded_pick_up = self.get_trip_miles(self.office_address, pick_up)
+        unloaded_drop_off = self.get_trip_miles(self.office_address, drop_off)
 
         if unloaded_pick_up <= 20:
-            return 0
-        else:
-            return unloaded_pick_up
+            unloaded_pick_up = 0
+        if unloaded_drop_off <= 20:
+            unloaded_drop_off = 0
 
+        return unloaded_pick_up + unloaded_drop_off
 
+    def unloaded_operating_extra(self, pick_up, drop_off):
+
+        unloaded_a_m = self.get_trip_miles(self.office_address, pick_up)
+
+        if unloaded_a_m < 20:
+            unloaded_a_m = 0
+
+        unloaded_a_t = self.get_trip_time(self.office_address, pick_up)
+
+        unloaded_b_m = self.get_trip_miles(self.office_address, drop_off)
+
+        if unloaded_b_m < 20:
+            unloaded_b_m = 0
+
+        unloaded_b_t = self.get_trip_time(self.office_address, drop_off)
+
+        total_miles = unloaded_a_m + unloaded_b_m
+        total_time = unloaded_a_t + unloaded_b_t
+
+        return total_miles, total_time

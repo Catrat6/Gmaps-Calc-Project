@@ -54,16 +54,21 @@ class OperatingCost():
 
         mile_calculator = MilesCalculation()
         miles = mile_calculator.get_trip_miles(pick_up, drop_off)
-        unloaded = mile_calculator.calculate_unloaded(pick_up)
+        unloaded = mile_calculator.calculate_unloaded(pick_up, drop_off)
         time = mile_calculator.get_trip_time(pick_up, drop_off)
+        extra_time, extra_miles = mile_calculator.unloaded_operating_extra(pick_up, drop_off)
 
-        gazzerleen_cost = round((miles + unloaded) / self.mpg) * self.gas_price
+        gazzerleen_cost = round((miles + unloaded + extra_miles) / self.mpg) * self.gas_price
 
-        drivers_pay = round((self.driver_cost / 60) * time)
+        drivers_pay = round((self.driver_cost / 60) * (time + extra_time))
 
-        wear = round(self.wear_n_tear * (miles + unloaded))
+        wear = round(self.wear_n_tear * (miles + unloaded + extra_miles))
+
+
 
         return gazzerleen_cost + drivers_pay + wear
+
+
 
 
 
