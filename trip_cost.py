@@ -1,4 +1,5 @@
 from lists import yes_words, no_words
+from main import mile_calculator
 from mile_calculation import MilesCalculation
 
 # OPERATING COSTS
@@ -38,6 +39,37 @@ class TripCost:
         trip_cost = base + fee
 
         return trip_cost
+
+# Unfinished Class
+
+class OperatingCost(TripCost):
+    def __init__(self, base_cost, ah_charge, per_mile, wait_time, unload):
+        super().__init__(base_cost, ah_charge, per_mile, wait_time, unload)
+
+        self.mpg = 18
+        self.driver_cost = 20.0
+        self.gas_price = 3.75  # per gallon
+        self.load_time = 10
+        self.wear_n_tear = .20  # cents per mile
+
+
+    def find_operating_costs(self, pick_up, drop_off):
+
+        mile_calculator = MilesCalculation()
+
+        miles = mile_calculator.get_trip_miles(pick_up, drop_off)
+
+        unloaded = mile_calculator.calculate_unloaded(pick_up)
+
+        time = mile_calculator.get_trip_time(pick_up, drop_off)
+
+        gazzerleen_cost = round((miles + unloaded) / self.mpg) * self.gas_price
+
+        drivers_pay = (self.drivers_cost / 60) * time
+
+
+
+
 
 
 

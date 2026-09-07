@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e25f476-400a-4703-9e39-02b5bd3c90bb" name="Changes" comment="API call for time added, changes in how calculation runs and object layout and design" />
+    <list default="true" id="5e25f476-400a-4703-9e39-02b5bd3c90bb" name="Changes" comment="small return change">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip_cost.py" beforeDir="false" afterPath="$PROJECT_DIR$/trip_cost.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788712452505</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="small return change">
+      <option name="closed" value="true" />
+      <created>1788712583751</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1788712583751</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +166,7 @@
     <MESSAGE value="Added in a round trip option" />
     <MESSAGE value="sync" />
     <MESSAGE value="API call for time added, changes in how calculation runs and object layout and design" />
-    <option name="LAST_COMMIT_MESSAGE" value="API call for time added, changes in how calculation runs and object layout and design" />
+    <MESSAGE value="small return change" />
+    <option name="LAST_COMMIT_MESSAGE" value="small return change" />
   </component>
 </project>
