@@ -15,7 +15,7 @@ while True:
 
     a = input('Is this trip after hours, between 5PM and 7AM? (yes or no)\n').lower()
 
-    b = input('How many legs does the trip have?\n')
+    b = int(input('How many legs does the trip have?\n'))
 
     c = input('Will this be round trip?\n')
 
@@ -23,9 +23,9 @@ while True:
 
     e = mile_calculator.calculate_unloaded(pick_up_address, drop_off_address)
 
-    f = input('how much wait time? (30 min intervals only)\n')
+    f = int(input('how much wait time? (30 min intervals only)\n'))
 
-    g = input('add any other random dollar amount (if none enter 0):\n')
+    g = int(input('add any other random dollar amount (if none enter 0):\n'))
 
     time = mile_calculator.get_trip_time(pick_up_address, drop_off_address)
 
