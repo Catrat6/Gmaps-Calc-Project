@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e25f476-400a-4703-9e39-02b5bd3c90bb" name="Changes" comment="readme update">
+      <change beforePath="$PROJECT_DIR$/.idea/Gmaps-Calc-Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Gmaps-Calc-Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trip_cost.py" beforeDir="false" afterPath="$PROJECT_DIR$/trip_cost.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,6 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="3IOLVhYfgHYKPV3f2sPFZkiRbZ6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

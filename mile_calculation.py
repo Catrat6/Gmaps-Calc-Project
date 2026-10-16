@@ -52,7 +52,7 @@ class MilesCalculation:
 
         time_seconds = trip_info['routes'][0]['duration'].replace('s', '')
 
-        return round(int(time_seconds) / 60)
+        return round((int(time_seconds) / 60) * 2)
 
 
     def calculate_unloaded(self, pick_up, drop_off):
