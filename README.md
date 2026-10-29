@@ -1,3 +1,38 @@
+## Stage Two (underway) V 1.75
+
+A minimum viable product has been created for the application, this includes a fully functional G.U.I
+
+I used AI to assist me in creating the GUI and for some help with setting up Flask as I am a novice with that framework. 
+
+V 1.75 test stack 
+
+This currently runs locally and imitates what the final version will be like. Anyone is able to use this
+so long as they know how to run a python script/program and setup an API key with google. 
+
+If you can do those two things than you can run this in your cloud 
+
+Requirements:
+
+- Flask
+- Gunicorn
+
+From here I will continue to test using this version and then work to finalize everything and spin 
+it up on a linode server so that it can be easily reached in the cloud. 
+
+### Next steps:
+
+- Decide on and develop security features to store and use google API key. 
+  - Make user entry for API that erases after a certain time
+  - Make a password entry or lock on the GUI that must be entered to run the app
+  - Make full on user accounts 
+- Sand the edges. 
+- Set up server and secure it. 
+- Develop Launch checklist and fix any bugs 
+
+Launch Web APP!
+
+Launch date: November 16 2026
+
 ## Stage one complete
 
 This is an overhaul of an already finished project that I currently host and built for lakeshore.
@@ -50,7 +85,7 @@ Building Next:
 In the process of building this now, the new class exists in trip_cost.py and inherits the OG trip cost class
 Almost done writing out the initial class and functions. Will dive into it more once I reach that point 
 
-### Ver 2.0 Operating Cost Update 9/7/26
+### Ver 1.6 Operating Cost Update 9/7/26
 
 Calculation of the operating cost is complete in its most basic form.
 
