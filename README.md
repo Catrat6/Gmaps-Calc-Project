@@ -1,39 +1,61 @@
-## Stage Two (underway) V 1.75
+## Stage Two (underway) V 0.75
 
-A minimum viable product has been created for the application, this includes a fully functional G.U.I, with the help
-of AI i took my OG command line version and re created it to run in flask. 
+A Beta version of the web app is now available to anyone at lakeshore, please message me 
+and I will give you the servers IP as I dont have it tied to a domain yet, you can also find 
+it in our slack. I will make it publically available and bind it to a domain when I launch the finished
+version. 
 
-It uses the same logic and algo that I wrote but it is now optimized to be ran in a browser. 
+In its current state it is a minimum viable product, it works great, has error handling
+and I do not personally see any glaring issues.
 
-V 1.75 test stack 
+It uses the same logic and algo that I wrote for V1 but it has now been optimized to run
+in the browser. With the help of AI I took my work from V1 and ported it in to a web app 
+that runs in the browser. The end user no longer has to fuss with python, dependencies or API keys. 
 
-This currently runs locally and imitates what the final version will be like. Anyone is able to use this
-so long as they know how to run a python script/program and setup an API key with google. 
-
-If you can do those two things than you can run this in your cloud 
-
-Requirements:
-
+### Test stack 
+- Linode (Ubuntu 26.04)
+- NGINX
 - Flask
 - Gunicorn
 
-From here I will continue to test using this version and then work to finalize everything and spin 
-it up on a linode server so that it can be easily reached in the cloud. 
+From here I will continue to test using this version of the web app while i work at 
+cleaning up the code and re-writing some of the changes GPT took liberties with. For instance
+I will rework it to follow OOP standards and make it extremely easy to change pricing the same way it
+is in the V1 code. 
 
-### Next steps:
+If you compare app.py to my OG algo found in main.py, mile_calculation.py, and trip_cost.py
+you will see what I mean although I must say i am very satisfied with the outcome and even though
+it may be a little out of place here i wanted to say THAT is how AI should be used ... you dont have it
+create the app for you ... you build a base version of it and lay it all out THEN you bring
+in an agent to help you out. It works much better this way as well and gets what you want on the first 
+go.
 
-- Re write app.py to clean it up and utilize O.O.P the same way my OG program does 
-- Decide on and develop security features to store and use google API key. 
-  - Make user entry for API that erases after a certain time
-  - Make a password entry or lock on the GUI that must be entered to run the app
-  - Make full on user accounts 
-- Sand the edges. 
-- Set up server and secure it. 
-- Develop Launch checklist and fix any bugs 
+### Next Steps
+- Rewrite app.py, web.py and index.html to follow O.O.P and my personal style
+  - Fix any issues and bugs 
+- Lay out the plan for adding in payer swap and custom profiles as well as other options and settings
+  - These options will be something like a drop down menu that will allow you to quickly
+    swap between different sets of pricing. There will also be the ability to create your
+    own custom pricing models to add to the drop down menu.
+- Lay out the plan for user login
+  - The main reason behind user login will really be to protect the API key so that we 
+    dont need to have the end user deal with it. With user login and profiles we can just
+    have everyone share the same key and not have to worry about entering it or securing 
+    it.
+  - User profiles can also have a few other settings like color themes and stuff.
 
-Launch Web APP!
+### Further Steps:
+- Find permanent domain
+- Plan security for server and domain
+- Add on User login and Pricing profiles
+- Penetration test
+- Fix any found bugs and issues 
+
+Launch V 1.0 Web APP!
 
 Launch date: November 16 2026
+
+# Old updates:
 
 ## Stage one complete
 
@@ -43,7 +65,7 @@ Here is a link to the OG repo:
 
 https://github.com/Catrat6/calc
 
-## Version 1.5    (update 9/7/26)
+## Version 0.5    (update 9/7/26)
 
 Updates made to how the calculation runs, object layout, and a new API call for time. 
 
@@ -87,7 +109,7 @@ Building Next:
 In the process of building this now, the new class exists in trip_cost.py and inherits the OG trip cost class
 Almost done writing out the initial class and functions. Will dive into it more once I reach that point 
 
-### Ver 1.6 Operating Cost Update 9/7/26
+### Ver 0.6 Operating Cost Update 9/7/26
 
 Calculation of the operating cost is complete in its most basic form.
 
