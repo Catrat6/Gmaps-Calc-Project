@@ -1,5 +1,4 @@
 from flask import Flask, jsonify, request
-
 from app import calculate
 
 app = Flask(__name__, static_folder="static")

@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e25f476-400a-4703-9e39-02b5bd3c90bb" name="Changes" comment="small change to time calculation">
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="5e25f476-400a-4703-9e39-02b5bd3c90bb" name="Changes" comment="Stage 2 V 1.75 ... base version of web browser front end completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web.py" beforeDir="false" afterPath="$PROJECT_DIR$/web.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.app.executor": "Run",
     "Python.main.executor": "Run",
     "Python.mile_calculation.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -187,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792175220801</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Stage 2 V 1.75 ... base version of web browser front end completed">
+      <option name="closed" value="true" />
+      <created>1793303086327</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1793303086327</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +222,7 @@
     <MESSAGE value="Solid operating cost algo, more sanding and reworking" />
     <MESSAGE value="readme update" />
     <MESSAGE value="small change to time calculation" />
-    <option name="LAST_COMMIT_MESSAGE" value="small change to time calculation" />
+    <MESSAGE value="Stage 2 V 1.75 ... base version of web browser front end completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stage 2 V 1.75 ... base version of web browser front end completed" />
   </component>
 </project>

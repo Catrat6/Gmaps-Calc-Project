@@ -1,8 +1,9 @@
 ## Stage Two (underway) V 1.75
 
-A minimum viable product has been created for the application, this includes a fully functional G.U.I
+A minimum viable product has been created for the application, this includes a fully functional G.U.I, with the help
+of AI i took my OG command line version and re created it to run in flask. 
 
-I used AI to assist me in creating the GUI and for some help with setting up Flask as I am a novice with that framework. 
+It uses the same logic and algo that I wrote but it is now optimized to be ran in a browser. 
 
 V 1.75 test stack 
 
@@ -21,6 +22,7 @@ it up on a linode server so that it can be easily reached in the cloud.
 
 ### Next steps:
 
+- Re write app.py to clean it up and utilize O.O.P the same way my OG program does 
 - Decide on and develop security features to store and use google API key. 
   - Make user entry for API that erases after a certain time
   - Make a password entry or lock on the GUI that must be entered to run the app
